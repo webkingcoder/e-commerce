@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-1">
+            <a href="#" class="logo"> <i class="fas fa-shopping-bag"></i> SHOPPING</a>
+            <div class="form-container">
+                <form action="">
+                    <input type="text" placeholder="search product" class="search">
+                    <label for="search" class="fas fa-search"></label>
+                </form>
+            </div>
+        </div>
+
+        <div class="header-2">
+            <div onclick="toggle_menu()" class="fas fa-bars menu"></div>
+            <nav class="navbar">
+                <ul>
+                    <li><a class="active" href="#home">home</a></li>
+                    <li><a href="#feature">feature</a></li>
+                    <li><a href="#arrival">arrived</a></li>
+                    <li><a href="#gallery">gallery</a></li>
+                    <li><a href="#about">about us</a></li>
+                </ul>
+            </nav>
+
+            <div class="icons">
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-shopping-cart"></i>
+                <i class="fas fa-user"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home_slide owl-carousel owl-theme">
+            <div class="item">
+                <img src="./ecommerce website/home_img1.jpg" alt="">
+                <div class="content">
+                    <h3>SHOPPING</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, corporis!</p>
+                    <a href="#"><button class="button-disc">Discover</button></a>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./ecommerce website/home_img2.jpg" alt="">
+                <div class="content">
+                    <h3>GADGETS</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, corporis!</p>
+                    <a href="#"><button class="button-disc">Discover</button></a>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./ecommerce website/home_img3.jpg" alt="">
+                <div class="content">
+                    <h3>CLOTHS</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, corporis!</p>
+                    <a href="#"><button class="button-disc">Discover</button></a>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./ecommerce website/home_img4.jpg" alt="">
+                <div class="content">
+                    <h3>GROCERIES</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, corporis!</p>
+                    <a href="#"><button class="button-disc">Discover</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="arrival" id="arrival">
+        <h1 class="heading"><span>New Arrival</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="images">
+                    <img src="./ecommerce website/arr_img1.jpg" alt="">
+                </div>
+                <div class="discription">
+                    <h3>SMART-TV</h3>
+                    <div class="sub-info">
+                        <strong class="price">10000/-</strong> <span class="cross">15000-/</span>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="over-lay">
+                    <a href="#" style="--i:1;" class="fas fa-heart"></i></a>
+                    <a href="#" style="--i:2;" class="fas fa-shopping-cart"></i></a>
+                    <a href="#" style="--i:3;" class="fas fa-search"></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="images">
+                    <img src="./ecommerce website/arr_img2.jpg" alt="">
+                </div>
+                <div class="discription">
+                    <h3>PLAY-STATION</h3>
+                    <div class="sub-info">
+                        <strong class="price">20000/-</strong> <span class="cross">55000-/</span>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="over-lay">
+                    <a href="#" style="--i:1;" class="fas fa-heart"></a>
+                    <a href="#" style="--i:2;" class="fas fa-shopping-cart"></a>
+                    <a href="#" style="--i:3;" class="fas fa-search"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="images">
+                    <img src="./ecommerce website/arr_img3.jpg" alt="">
+                </div>
+                <div class="discription">
+                    <h3>SHOES</h3>
+                    <div class="sub-info">
+                        <strong class="price">1000/-</strong> <span class="cross">5000-/</span>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="over-lay">
+                    <a href="#" style="--i:1;" class="fas fa-heart"></i></a>
+                    <a href="#" style="--i:2;" class="fas fa-shopping-cart"></i></a>
+                    <a href="#" style="--i:3;" class="fas fa-search"></i></a>
+                </div>
+            </div>
+
+            <div class="box ">
+                <div class="images">
+                    <img src="./ecommerce website/arr_img4.jpg" alt="">
+                </div>
+                <div class="discription">
+                    <h3>SMART-PHONE</h3>
+                    <div class="sub-info">
+                        <strong class="price">10000/-</strong> <span class="cross">15000-/</span>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="over-lay">
+                    <a href="#" style="--i:1;" class="fas fa-heart"></i></a>
+                    <a href="#" style="--i:2;" class="fas fa-shopping-cart"></i></a>
+                    <a href="#" style="--i:3;" class="fas fa-search"></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="images">
+                    <img src="./ecommerce website/arr_img5.jpg" alt="">
+                </div>
+                <div class="discription">
+                    <h3>T-SHIRT</h3>
+                    <div class="sub-info">
+                        <strong class="price">10000/-</strong> <span class="cross">15000-/</span>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="over-lay">
+                    <a href="#" style="--i:1;" class="fas fa-heart"></i></a>
+                    <a href="#" style="--i:2;" class="fas fa-shopping-cart"></i></a>
+                    <a href="#" style="--i:3;" class="fas fa-search"></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="images">
+                    <img src="./ecommerce website/arr_img6.jpg" alt="">
+                </div>
+                <div class="discription">
+                    <h3>ALEXA</h3>
+                    <div class="sub-info">
+                        <strong class="price">10000/-</strong><span class="cross">15000-/</span>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="over-lay">
+                    <a href="#" style="--i:1;" class="fas fa-heart"></i></a>
+                    <a href="#" style="--i:2;" class="fas fa-shopping-cart"></i></a>
+                    <a href="#" style="--i:3;" class="fas fa-search"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="feature" id="feature">
+        <h3 class="heading"><span>New Featured</span></h3>
+        <div class="boxed">
+            <div class="watch-image">
+                <img class="wimg" src="watch1.jpg" alt="">
+                <div class="about">
+                    <h3>HMT watches</h3>
+                    <div class="dis">
+                        Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        In, quaerat. adipisicing elit. Cumque, quas consequatur reprehenderit consequuntur optio sed.
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="rate">
+                        <strong class="price">1000/- </strong> <span class="cross"> 5000-/</span>
+                    </div>
+                </div>
+                <div class="btn">
+                    <button class="buttons">Buy</button>
+                    <button class="buttons">Add cart</button>
+                </div>
+
+            </div>
+            <div class="small-image">
+                <img onclick="cngimg(num = 1)" class="smwtch1" src="watch1.jpg" alt="">
+                <img onclick="cngimg(num = 2)" class="smwtch2" src="watch2.jpg" alt="">
+                <img onclick="cngimg(num = 3)" class="smwtch3" src="watch3.jpg" alt="">
+                <img onclick="cngimg(num = 4)" class="smwtch4" src="watch4.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- id="menu" -->
+    <div class="gallery" id="gallery">
+        <h1 class="heading"><span>Gallery</span></h1>
+
+        <ul class="control">
+            <li class="btn1" data-filter='all'>All</li>
+            <li class="btn1" data-filter='phone'>Phone</li>
+            <li class="btn1" data-filter='laptop'>Laptop</li>
+            <li class="btn1" data-filter='headphone'>Headphone</li>
+            <li class="btn1" data-filter='shoes'>Shoes</li>
+        </ul>
+        <div class="images-container">
+            <div class="box phone">
+                <div class="pics">
+                    <img src="./ecommerce website/g_img1.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h3>Smart-Phone</h3>
+                    <div class="subinfo">
+                        <strong class="price">1000-/</strong>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box phone">
+                <div class="pics">
+                    <img src="./ecommerce website/g_img2.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h3>Smart-phone</h3>
+                    <div class="subinfo">
+                        <strong class="price">1000-/</strong>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box laptop">
+                <div class="pics">
+                    <img src="./ecommerce website/g_img3.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h3>Laptop</h3>
+                    <div class="subinfo">
+                        <strong class="price">1000-/</strong>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box shoes">
+                <div class="pics">
+                    <img src="./ecommerce website/g_img4.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h3>Shoes</h3>
+                    <div class="subinfo">
+                        <strong class="price">1000-/</strong>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box laptop">
+                <div class="pics">
+                    <img src="./ecommerce website/g_img5.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h3>Laptop</h3>
+                    <div class="subinfo">
+                        <strong class="price">1000-/</strong>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box headphone">
+                <div class="pics">
+                    <img src="./ecommerce website/g_img6.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h3>Headphone</h3>
+                    <div class="subinfo">
+                        <strong class="price">1000-/</strong>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box shoes">
+                <div class="pics">
+                    <img src="./ecommerce website/g_img7.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h3>Shoes</h3>
+                    <div class="subinfo">
+                        <strong class="price">1000-/</strong>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box headphone">
+                <div class="pics">
+                    <img src="./ecommerce website/g_img8.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h3>Headphone</h3>
+                    <div class="subinfo">
+                        <strong class="price">1000-/</strong>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box headphone">
+                <div class="pics">
+                    <img src="./ecommerce website/g_img9.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h3>Headphone</h3>
+                    <div class="subinfo">
+                        <strong class="price">1000-/</strong>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <section class="deal" id="deal">
+        <h1 class="heading"><span>Deal</span></h1>
+        <div class="box-cont">
+            <div class="box">
+                <div class="photo">
+                    <img src="./ecommerce website/deal1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3><strong>New Smart-Phone</strong></h3>
+                    <div class="dsic">
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        <button class="btn1">Explore</button>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="photo">
+                    <img src="./ecommerce website/deal2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3><strong>New Laptop</strong></h3>
+                    <div class="dsic">
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        <button class="btn1">Explore</button>
+                    </div>
+                </div>
+            </div>
+            <div class="icons">
+                <i class="fas fa-shipping-fast"></i>
+                <h3>Fast delivery</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="icons">
+                <i class="fas fa-user-clock"></i>
+                <h3>10 days return</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="icons">
+                <i class="fas fa-box"></i>
+                <h3>Safe delivery</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="icons">
+                <i class="fas fa-money-check-alt"></i>
+                <h3>Cash on delivery</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+    </section>
+    <section class="news-letter">
+        <h3><strong>Stay in touch for discounts and deals</strong></h3>
+        <form action="">
+            <input type="email" placeholder="enter your email">
+            <button type="submit">submit</button>
+        </form>
+    </section>
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="big-box">
+                <div class="box">
+                    <a href="#" class="logo"> <i class="fas fa-shopping-bag"></i> SHOPPING</a>
+                    <br>
+                    <br>
+                    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ea error animi quis quod odio quas
+                        asperiores nesciunt cumque. Totam molestiae officia dolore tempora corporis dignissimos illum earum
+                        quae, quo cum consequuntur optio perferendis obcaecati numquam, ratione facere quos, saepe qui
+                        sapiente voluptatibus. Amet consequuntur doloribus error excepturi, facere voluptatibus?</p>
+                    </div>
+            </div>
+                
+            <div class="box">
+                <h3> <i class="fas fa-link"></i> links</h3>
+                <a class="link" href="#">Home</a>
+                <a class="link" href="#">Arrival</a>
+                <a class="link" href="#">Feature</a>
+                <a class="link" href="#">Gallery</a>
+                <a class="link" href="#">Deal</a>
+            </div>
+            <div class="box-cont">
+                <h3> <i class="fas fa-user"></i> CONTACT US</h3>
+                <div class="motos">
+                    <p> <i class="fas fa-home"></i> 
+                        Bhopal ,Madhya Pradesh
+                        India 462001
+                    </p>
+                    <p> <i class="fas fa-phone"></i>
+                        +919340110601 
+                    </p>
+                    <p> <i class="fas fa-globe"></i>
+                        website::www.shoppingstore.com  
+                    </p>
+                </div>
+            </div>
+            <div class="copyright">
+                <i class="fab fa-sketch"></i> Designed by AMBAR SAXENA 
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
